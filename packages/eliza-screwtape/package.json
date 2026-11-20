@@ -1,0 +1,16 @@
+{
+  "name": "@screwtapeai/plugin-screwtape",
+  "version": "0.1.0",
+  "description": "ElizaOS plugin: check a seller before an agent pays, via Screwtape.ai.",
+  "type": "module",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/screwtapeai/screwtape-agent-plugins.git"
+  },
+  "keywords": ["elizaos", "plugin", "screwtape", "agents", "payments", "safety"],
+  "peerDependencies": {
+    "@elizaos/core": ">=1.0.0"
+  }
+}

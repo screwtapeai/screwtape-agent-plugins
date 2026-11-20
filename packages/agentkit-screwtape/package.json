@@ -1,0 +1,20 @@
+{
+  "name": "@screwtapeai/agentkit-screwtape",
+  "version": "0.1.0",
+  "description": "Coinbase AgentKit action provider: check a seller before an agent pays, via Screwtape.ai.",
+  "type": "module",
+  "main": "src/screwtapeActionProvider.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/screwtapeai/screwtape-agent-plugins.git"
+  },
+  "keywords": ["agentkit", "screwtape", "agents", "payments", "safety"],
+  "peerDependencies": {
+    "@coinbase/agentkit": ">=0.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "zod": "^3.23.0"
+  }
+}
